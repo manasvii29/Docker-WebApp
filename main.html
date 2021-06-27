@@ -1,0 +1,25 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script> src="script.js" </script>
+</head>
+
+<body>
+  <div id="docker-img">
+
+    <img width="200" height="200" alt="Docker Image" usemap="#workmap" src="images/large_v-trans.png"> </img>
+    
+  </div>
+  <h1><em>Docker WebApp</em></h1>
+  <h2>A user friendlly App to control and manage docker containers</h2>
+  <label>Enter your command</label><br>
+
+  <form id="first" action="http://192.168.1.11/cgi-bin/webapp.py" >
+    <label for="cmd"></label>
+    <input type="text" id="cmd" name="cmd" placeholder="cmd">
+    <input class= "btn" type="submit" value="Submit">
+
+</form>
+</body>
+
+</html>

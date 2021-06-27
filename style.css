@@ -1,0 +1,117 @@
+body {
+
+
+    background-image: url("F:/task-7/images/background1.png");
+    background-color: #cccccc;
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: content-box;
+    
+  }
+  
+.center{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  }
+  
+
+
+  div#docker-img {
+    width: 1px;
+    height: 1px;
+    color: deepskyblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  
+    
+  }
+
+ @keyframes example {
+  
+    0%   { left:0px; top:75%;}
+    25%  { left:88%; top:75%;}
+    50%  { left:0%; top:75%;}
+    75%  { left:88%; top:75%;}
+    100% { left:0%; top:75%;}
+    
+    
+  }
+
+  .btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(top, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    border: solid #11CDD4 2px;
+    text-decoration: none;
+    position: relative;
+    left: 30px;
+    
+  }
+  
+  .btn:hover {
+    background: #13E3CB;
+    background-image: -webkit-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #13E3CB, #2BC4AD);
+    background-image: linear-gradient(top, #13E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+  
+  h1{
+    font-size: 5.625rem;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold;
+    padding-bottom: 10px;
+    color:rgb(238, 255, 0);
+  }
+
+  label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    position: relative;
+    right:60px;
+  }
+
+
+ 
+  textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 10px;
+    }
